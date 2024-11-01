@@ -150,22 +150,9 @@ patronus-frontend/
    DATABASE_URL=mongodb://your-mongodb-url
    JWT_SECRET=your-secure-jwt-secret
    STRIPE_SECRET_KEY=your-stripe-secret-key
-   PORT=3000
    ```
 
 4. Start the development server
    ```bash
    npm run dev  # or yarn dev
-   ```
-
-## 🌐 Production Deployment
-
-1. Build the production version
-   ```bash
-   npm run build  # or yarn build
-   ```
-
-2. Start the production server
-   ```bash
-   npm start  # or yarn start
    ```
