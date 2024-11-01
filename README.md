@@ -7,7 +7,7 @@
 Patronus is a comprehensive, full-stack donation platform designed to connect donors with meaningful causes. Built with the MERN (MongoDB, Express, React, Node.js) stack, the platform provides a secure, user-friendly experience for creating and supporting fundraising campaigns.
 
 ## 🔗 Deployment Link
-**Frontend**: [https://patronus-frontend.vercel.app/login](https://patronus-frontend.vercel.app/login)
+**Live Link**: [https://patronus-frontend.vercel.app/login](https://patronus-frontend.vercel.app/login)
 
 ## ✨ Core Features
 
@@ -56,22 +56,22 @@ Patronus is a comprehensive, full-stack donation platform designed to connect do
 ```
 patronus-backend/
 ├── config/
-│   └── db-config.js         # Database configuration
+│   |── db-config.js         # Database configuration
 ├── middleware/
-│   └── index.js             # Authentication middleware
+│   |── index.js             # Authentication middleware
 ├── models/
 │   ├── campaign-model.js    # Campaign data schema
 │   ├── donation-model.js    # Donation tracking schema
-│   └── user-model.js        # User account schema
+│   |── user-model.js        # User account schema
 ├── routes/
 │   ├── users-route.js       # User management endpoints
 │   ├── campaigns-route.js   # Campaign operation routes
 │   ├── donations-route.js   # Donation processing routes
 │   ├── payments-route.js    # Stripe payment integration
-│   └── reports-route.js     # Reporting system routes
+│   |── reports-route.js     # Reporting system routes
 ├── .env                     # Environment configuration
 ├── app.js                   # Application entry point
-└── README.md                # Project documentation
+|── README.md                # Project documentation
 ```
 
 ### Frontend Structure
@@ -82,7 +82,7 @@ patronus-frontend/
 ├── pages/         # Main application views
 ├── providers/     # Context and theme providers
 ├── store/         # State management
-└── styles/        # Global styling
+|── styles/        # Global styling
 ```
 
 ## 🔌 API Endpoint Overview
